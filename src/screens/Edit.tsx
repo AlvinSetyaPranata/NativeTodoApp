@@ -24,7 +24,7 @@ export default function Edit({ route, navigation }: propsType): React.ReactEleme
             <Pressable>
                 <Text style={style.goBackButton}>Go Back</Text>
             </Pressable>
-            <Text style={style.title}>Edit your todo</Text>
+            <Text style={style.title}>Edit your todo's</Text>
             <View style={style.fieldContainer}>
                 <InputField title="What do you want todo?" initialValue={data.what}/>
                 <InputField title="When do you want todo?" initialValue={data.when}/>
