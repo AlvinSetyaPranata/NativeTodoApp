@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Router from './routes';
-
+import { DbProvider } from './context/DbContext';
 
 export default function App(): JSX.Element {
-  return <Router />;
+
+  return (
+    <DbProvider>
+        <Router />
+    </DbProvider>
+  );
 }
