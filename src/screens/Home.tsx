@@ -36,7 +36,7 @@ export default function Home({navigation}: propsType): JSX.Element {
 
   return (
     <SafeAreaView style={style.wrapper}>
-      <Text style={style.header}>Todo App</Text>
+      <Text style={style.header}>Todo App ^-^</Text>
       <ScrollView>
         <View style={style.todoContainer}>
           {data.map((data, index)=> {
